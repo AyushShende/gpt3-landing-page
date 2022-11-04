@@ -1,10 +1,13 @@
 import "./App.css";
 import { Brand, CTA, Navbar } from "./components";
-import Features from "./containers/features/Features";
-import Header from "./containers/header/Header";
-import Possibility from "./containers/possibility/Possibility";
-import WhatGPT3 from "./containers/whatGPT3/WhatGPT3";
-import Blog from "./containers/blog/Blog";
+import {
+  Features,
+  Header,
+  Possibility,
+  WhatGPT3,
+  Blog,
+  Footer,
+} from "./containers";
 
 function App() {
   return (
@@ -19,6 +22,7 @@ function App() {
       <Possibility />
       <CTA />
       <Blog />
+      <Footer />
     </div>
   );
 }
